@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="images.css">
+    <link rel="stylesheet" type="text/css" href="navigator.css">
+    <link rel="stylesheet" type="text/css" href="canvas.css">
+    <link rel="stylesheet" type="text/css" href="text.css">
+  </head>
+  <section id="nav-bar">
+    <ul class="n">
+      <li class="n"><a class="active" href="index.html">Home</a></li>
+      <li class="n"><a href="projects.html">Projects</a></li>
+      <li class="n"><a href="#contact">Contact</a></li>
+      <li class="n"><a href="#Aboutme">About me</a></li>
+    </ul>
+    </section>
+<div>          
+<h4 class="text-hover">
+Theo Koulas
+</h4>
+<h5 class="text-hover">
+  Computer Systems Engineer
+</h5>             
+</div>
+<canvas id="canvas"></canvas>
+<script type="text/javascript" src="canvas.js"></script>
+<script>
+  function _toArray(arr) { 
+      return Array.isArray(arr) ? arr : Array.from(arr)
+    }
+    
+    function makeSpans (selector) {
+      var _document$querySelect = document.querySelectorAll(selector)
+      var _document$querySelect2 = _toArray(_document$querySelect)
+      var elements = _document$querySelect2.slice(0)
+      
+      return elements.map(function (element) {
+        var text = element.innerText.split('')
+        var spans = text.map(function (letter) {
+          return '<span>' + letter + '</span>'
+        }).join('')
+        return element.innerHTML = spans
+      })
+    }
+    
+    makeSpans('h4')
+    makeSpans('h5')
+  </script>
+  
+
+</body>
+</hmtl>
