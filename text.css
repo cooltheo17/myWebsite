@@ -35,11 +35,11 @@ h4 span:nth-child(3n):hover {
 
 h5 {
   color:#e8e8e8;
-  font-family: "Karla", sans-serif;
+  font-family: 'Dejavu Sans'; 
   font-size: 1.5vw;
   position: relative;
   margin-left: 120px;
-  top: -200px;
+  top: -170px;
 
 }
 

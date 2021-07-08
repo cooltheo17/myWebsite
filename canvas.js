@@ -78,6 +78,7 @@ function Circle( x, y, dx, dy, radius ) {
 		this.y += this.dy;
 
         this.draw();
+		
 
 	}
 
@@ -122,5 +123,4 @@ function animate() {
 }
 
 animate();
-
 
