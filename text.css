@@ -3,7 +3,7 @@ body {background-color: #313131;
 
 h4 {
   color:#e8e8e8;
-  font-family: "Karla", sans-serif;
+  font-family: 'Dejavu Sans'; 
   font-size: 5vw;
   position: relative;
   margin-left: 110px;
@@ -39,7 +39,7 @@ h5 {
   font-size: 1.5vw;
   position: relative;
   margin-left: 120px;
-  top: -170px;
+  top: -200px;
 
 }
 
@@ -68,14 +68,14 @@ h5 span:nth-child(3n):hover {
 h6 {
   color:#8bbfef;
   font-family: 'Dejavu Sans';
-  font-size: 30px;
+  font-size: 25px;
   position: relative;
   font-weight: normal;
   -webkit-transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
   -webkit-transform: translate3d(0,20px,0);
   transform: translate3d(0,20px,0);
-  top:-640px;
+  top:-510px;
   z-index: 2;
 }
 
@@ -85,28 +85,12 @@ h6:hover{
   font-size: 26px;
   
 }
-.grid-item-1 h7 {
-  background-color: #cccccc;
-  margin: 20px;
-  padding: 10px;
-  width: 340px;
-  height: 450px;
-  font-size: 20px;
-  font-weight: normal;
-  border: 1px solid #8bbfef;
-  opacity: 0;
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: translate3d(0,20px,0) scale(1.1);
-  transform: translate3d(0,20px,0) scale(1.1);
-}
-
 .grid-item-1 p {
   margin: 20px;
   padding: 10px;
-  width: 340px;
-  height: 450px;
-  font-size: 20px;
+  width: 240px;
+  height: 350px;
+  font-size: 15px;
   font-weight: normal;
   border: 1px solid #8bbfef;
   opacity: 0;
@@ -122,18 +106,18 @@ h6:hover{
 }   
 .grid-container {
   display: grid;
-  grid-gap: 50px 100px;
+  grid-gap: 40px 80px;
   grid-template-columns: auto auto auto auto;
-  padding: 80px 300px;
+  padding: 20px 220px;
 
 }
 .box{
   position: relative;
-  width: 100px;
-  height: 100px;
-  background-image: url(images/github_logo_2.png);
-  top: -160px;
-  margin-left: 140px;
+  width: 80px;
+  height: 80px;
+  background-image: url(images/github_logo_1.png);
+  top: -130px;
+  margin-left: 110px;
   opacity: 0.8;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
@@ -147,8 +131,8 @@ h6:hover{
 } 
 
 .grid-item-1 {
-  width: 400px;
-  height: 600px;
+  width: 300px;
+  height: 450px;
   border: 3px solid #B5373F;
   font-size: 40px;
   text-align: center;
@@ -158,8 +142,8 @@ h6:hover{
 	opacity: 0.7;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-  width:400px;
-  height:600px;
+  width: 300px;
+  height: 450px;
   z-index: 1;
 }
 
@@ -168,8 +152,8 @@ h6:hover{
 }
 
 .grid-item-2 {
-  width: 400px;
-  height: 600px;
+  width: 300px;
+  height: 450px;
   background-color: #262b33;
   border: 2px solid #B5373F;
   padding: 0px;
@@ -177,8 +161,8 @@ h6:hover{
   text-align: center;
 }
 .grid-item-3 {
-  width: 400px;
-  height: 600px;
+  width: 300px;
+  height: 450px;
   background-color: #262b33;
   border: 2px solid #B5373F;
   padding: 0px;
@@ -186,8 +170,8 @@ h6:hover{
   text-align: center;
 }
 .grid-item-4 {
-  width: 400px;
-  height: 600px;
+  width: 300px;
+  height: 450px;
   background-color: #262b33;
   border: 2px solid #B5373F;
   padding: 0px;
@@ -195,8 +179,8 @@ h6:hover{
   text-align: center;
 }
 .grid-item-5 {
-  width: 400px;
-  height: 600px;
+  width: 300px;
+  height: 450px;
   background-color: #262b33;
   border: 2px solid #B5373F;
   padding: 0px;
@@ -204,8 +188,8 @@ h6:hover{
   text-align: center;
 }
 .grid-item-6 {
-  width: 400px;
-  height: 600px;
+  width: 300px;
+  height: 500px;
   background-color: #262b33;
   border: 2px solid #B5373F;
   padding: 0px;
@@ -213,8 +197,8 @@ h6:hover{
   text-align: center;
 }
 .grid-item-7 {
-  width: 400px;
-  height: 600px;
+  width: 300px;
+  height: 500px;
   background-color: #262b33;
   border: 2px solid #B5373F;
   padding: 0px;
@@ -222,8 +206,8 @@ h6:hover{
   text-align: center;
 }
 .grid-item-8 {
-  width: 400px;
-  height: 600px;
+  width: 300px;
+  height: 500px;
   background-color: #262b33;
   border: 2px solid #B5373F;
   padding: 0px;
