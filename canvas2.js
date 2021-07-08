@@ -21,7 +21,7 @@ function Circle( x, y, dx, dy, radius ) {
 		c4.beginPath();
 		c4.arc( this.x, this.y,  this.radius, 0, Math.PI * 2, true  );
 		c4.strokeStyle = "#B5373F";
-        c4.lineWidth = 5;
+        c4.lineWidth = 2;
         c4.stroke();
 	}
 	
@@ -39,33 +39,32 @@ function Circle( x, y, dx, dy, radius ) {
 				var xDif=(Math.round(this.x)-mouseX);
 				var yDif=(Math.round(this.y)-mouseY);
 				
-				
 				if(xDif < 60 && xDif > 0){
-					this.dx+=0.2;
+					this.dx+=0.05;
 				}
 				else if(xDif < 140 && xDif > 60){
-					this.dx+=0.1;
+					this.dx+=0.02;
 				}	
 				else if(xDif > -60 && xDif < 0){
-					this.dx-=0.2;
+					this.dx-=0.05;
 				}
 				else if(xDif > -140 && xDif < -60){
-					this.dx-=0.1;
+					this.dx-=0.02;
 				}
 				if(yDif < 60 && yDif > 0){
-					this.dy+=0.2;
+					this.dy+=0.05;
 				}
 				else if(yDif < 140 && yDif > 60){
-					this.dy+=0.1;
+					this.dy+=0.02;
 				}	
 				else if(yDif > -60 && yDif < 0){
-					this.dy-=0.2;
+					this.dy-=0.05;
 				}
 				else if(yDif > -140 && yDif < -60){
-					this.dy-=0.1;
-				}	
+					this.dy-=0.02;
+				}		
 		}
-		if(this.x + this.radius > 305 && this.x + this.radius < 500 || this.x - this.radius < 0 || this.x - this.radius < canvas.width-310 && this.x + this.radius > 500 || this.x + this.radius > canvas.width) {
+		if(this.x + this.radius > 230 && this.x + this.radius < 500 || this.x - this.radius < 0 || this.x - this.radius < canvas.width-240 && this.x + this.radius > 500 || this.x + this.radius > canvas.width) {
 
 			this.dx = -this.dx;
 		}
@@ -88,7 +87,7 @@ var number = 9;
 for( var i = 0; i < number; i++ )  {
 
 	// Radius
-	var radius = 80;
+	var radius = 60;
 	var scaleSize=Math.random();
 	if(scaleSize>0.4){
 		radius=radius*scaleSize;
@@ -105,9 +104,9 @@ for( var i = 0; i < number; i++ )  {
 	// Speed in x and y direction
 	var dx = 0;
 	var xDirection = Math.random();
-	if(xDirection<0.5){dx = -1* Math.random() * 2.4;}
-  	else{dx = xDirection * 2.5;}
-  	var dy = Math.random() * 2.3;
+	if(xDirection<0.5){dx = -1* Math.random() * 1.4;}
+  	else{dx = xDirection *  1.5;}
+  	var dy = Math.random() *  1.3;
 
 	circles.push( new Circle( x, y, dx, dy, radius ) );
 	
