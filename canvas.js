@@ -40,28 +40,28 @@ function Circle( x, y, dx, dy, radius ) {
 				var yDif=(Math.round(this.y)-mouseY);
 				
 				if(xDif < 60 && xDif > 0){
-					this.dx+=0.1;
+					this.dx+=0.05;
 				}
 				else if(xDif < 140 && xDif > 60){
-					this.dx+=0.05;
+					this.dx+=0.02;
 				}	
 				else if(xDif > -60 && xDif < 0){
-					this.dx-=0.1;
-				}
-				else if(xDif > -140 && xDif < -60){
 					this.dx-=0.05;
 				}
+				else if(xDif > -140 && xDif < -60){
+					this.dx-=0.02;
+				}
 				if(yDif < 60 && yDif > 0){
-					this.dy+=0.1;
+					this.dy+=0.05;
 				}
 				else if(yDif < 140 && yDif > 60){
-					this.dy+=0.05;
+					this.dy+=0.02;
 				}	
 				else if(yDif > -60 && yDif < 0){
-					this.dy-=0.1;
+					this.dy-=0.05;
 				}
 				else if(yDif > -140 && yDif < -60){
-					this.dy-=0.05;
+					this.dy-=0.02;
 				}		
 		}
 		if(this.x + this.radius > canvas.width || this.x - this.radius < 0) {
@@ -102,9 +102,9 @@ for( var i = 0; i < number; i++ )  {
 	// Speed in x and y direction
 	var dx = 0;
 	var xDirection = Math.random();
-	if(xDirection<0.5){dx = -1* Math.random() * 1.6;}
-  	else{dx = xDirection *  1.8;}
-  	var dy = Math.random() *  1.6;
+	if(xDirection<0.5){dx = -1* Math.random() * 1.4;}
+  	else{dx = xDirection *  1.5;}
+  	var dy = Math.random() *  1.3;
 
 	circles.push( new Circle( x, y, dx, dy, radius ) );
 	
