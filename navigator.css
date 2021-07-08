@@ -17,18 +17,18 @@ ul.n {
     font-size: 0.65vw;
     padding: 17px 40px;
     text-decoration: none;
-    font-family: 'Dejavu Sans';
+    font-family: "Karla", sans-serif;
     letter-spacing: 0.05vw;
   }
   .active {
     background-color: #B5373F;
     color: #e8e8e8;
-    font-family: 'Dejavu Sans'; 
+    font-family: "Karla", sans-serif;
     
   }
   .activebkg {
     background-color: #94b0b0;
     color: #454949;
-    font-family: 'Dejavu Sans'; 
+    font-family: "Karla", sans-serif;
   }
   

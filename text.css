@@ -3,7 +3,7 @@ body {background-color: #313131;
 
 h4 {
   color:#e8e8e8;
-  font-family: 'Dejavu Sans'; 
+  font-family: "Karla", sans-serif;
   font-size: 5vw;
   position: relative;
   margin-left: 110px;
@@ -35,7 +35,7 @@ h4 span:nth-child(3n):hover {
 
 h5 {
   color:#e8e8e8;
-  font-family: 'Dejavu Sans'; 
+  font-family: "Karla", sans-serif;
   font-size: 1.5vw;
   position: relative;
   margin-left: 120px;
