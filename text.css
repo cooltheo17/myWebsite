@@ -3,7 +3,7 @@ body {background-color: #313131;
 
 h4 {
   color:#e8e8e8;
-  font-family: 'Dejavu Sans'; 
+  font-family: "Karla", sans-serif;
   font-size: 5vw;
   position: relative;
   margin-left: 110px;
@@ -35,11 +35,13 @@ h4 span:nth-child(3n):hover {
 
 h5 {
   color:#e8e8e8;
+  font-family: "Karla", sans-serif;
   font-family: 'Dejavu Sans'; 
   font-size: 1.5vw;
   position: relative;
   margin-left: 120px;
   top: -200px;
+  top: -170px;
 
 }
 
@@ -67,7 +69,7 @@ h5 span:nth-child(3n):hover {
 
 h6 {
   color:#8bbfef;
-  font-family: 'Dejavu Sans';
+  font-family: 'Heebo';
   font-size: 25px;
   position: relative;
   font-weight: normal;
@@ -90,6 +92,7 @@ h6:hover{
   padding: 10px;
   width: 240px;
   height: 350px;
+  font-family: 'Heebo';
   font-size: 15px;
   font-weight: normal;
   border: 1px solid #8bbfef;
@@ -189,7 +192,7 @@ h6:hover{
 }
 .grid-item-6 {
   width: 300px;
-  height: 500px;
+  height: 450px;
   background-color: #262b33;
   border: 2px solid #B5373F;
   padding: 0px;
@@ -198,7 +201,7 @@ h6:hover{
 }
 .grid-item-7 {
   width: 300px;
-  height: 500px;
+  height: 450px;
   background-color: #262b33;
   border: 2px solid #B5373F;
   padding: 0px;
@@ -207,7 +210,7 @@ h6:hover{
 }
 .grid-item-8 {
   width: 300px;
-  height: 500px;
+  height: 450px;
   background-color: #262b33;
   border: 2px solid #B5373F;
   padding: 0px;
