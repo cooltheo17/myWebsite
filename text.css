@@ -218,16 +218,17 @@ h6:hover{
 
 .download-btn {
   color: #e8e8e8;
-  font-family: "Montserrat", "bold";
+  font-family: "Montserrat";
   text-transform: uppercase;
   text-decoration: none;
   background: #313131;
   padding: 10px;
   border: 4px solid #B5373F;
   display: inline-block;
+  text-align: center;
   position: relative;
+  margin-left: 110px;
   top: 100px;
-  margin-left: 50px;
   transition: all 0.8s ease 0s;
   }
   .download-btn:hover {
@@ -235,4 +236,47 @@ h6:hover{
   background: #B5373F;
   border-color: #e8e8e8;
   transition: all 0.7s ease 0s;
+  }
+
+  h7 {
+    color:#e8e8e8;
+    font-family: "Nunito";
+    font-size: 3vw;
+    text-decoration: underline;
+    text-decoration-color:#B5373F;   
+    position: relative;
+    margin-left: 110px;
+    top: 40px;
+    line-height: 5.5vw;
+  }
+  
+  h7 span {
+    transition: color 3s;
+    transition-delay: 1s;
+    letter-spacing: -0.1vw;
+  }
+  
+  h7 span:hover {
+    transition: color 0s;
+  }
+  
+  h7 span:nth-child(1n):hover {
+    color: #82090f;
+  }
+  
+  h7 span:nth-child(2n):hover {
+    color: #842a2b;
+  }
+  
+  h7 span:nth-child(3n):hover {
+    color: #c12427;
+  }
+
+  h8 {
+    color:#e8e8e8;
+    font-family: "Nunito";
+    font-size: 1.2vw;
+    position: relative;
+    margin-left: 110px;
+    top: 40px;
   }

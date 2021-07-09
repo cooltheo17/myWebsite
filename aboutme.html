@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="navigator.css">
     <link rel="stylesheet" type="text/css" href="canvas.css">
     <link rel="stylesheet" type="text/css" href="text.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla|Heebo|Montserrat">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla|Heebo|Montserrat|Nunito">
   </head>
   <section id="nav-bar">
     <ul class="n">
@@ -16,11 +16,39 @@
       <li class="n"><a class="active" href="aboutme.html">About me</a></li>
     </ul>
     </section>
+
+    <h7 class="text-hover">About me</h7><br>
+    <h8>I am a third year student at the University of Warwick</h8>
+    <br><h8>studing Computer Systems Engineering. I am passionate</h8>
+    <br><h8>about programming and I enjoy learning about new</h8>
+    <br><h8>technologies. I hope to be part of a team that will</h8>
+    <br><h8>develop exciting projects.</h8>
+    <br>
     <a class="download-btn" href="https://docs.google.com/document/d/1uNUf0FumwR4AZxHp9Uf3IGLlS6WJbCn-43Ykdc6ZVfc/edit?usp=sharing" target="_blank">Download CV</a>
     <div>
     <canvas id="canvas"></canvas>
-    <script type="text/javascript" src="canvas.js"></script>
-
+    <script type="text/javascript" src="canvas3.js"></script>
+    <script>
+      function _toArray(arr) { 
+          return Array.isArray(arr) ? arr : Array.from(arr)
+        }
+        
+        function makeSpans (selector) {
+          var _document$querySelect = document.querySelectorAll(selector)
+          var _document$querySelect2 = _toArray(_document$querySelect)
+          var elements = _document$querySelect2.slice(0)
+          
+          return elements.map(function (element) {
+            var text = element.innerText.split('')
+            var spans = text.map(function (letter) {
+              return '<span>' + letter + '</span>'
+            }).join('')
+            return element.innerHTML = spans
+          })
+        }
+        
+        makeSpans('h7')
+      </script>
   
 
 </body>
