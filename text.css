@@ -36,11 +36,9 @@ h4 span:nth-child(3n):hover {
 h5 {
   color:#e8e8e8;
   font-family: "Karla", sans-serif;
-  font-family: 'Dejavu Sans'; 
   font-size: 1.5vw;
   position: relative;
   margin-left: 120px;
-  top: -200px;
   top: -170px;
 
 }
@@ -217,3 +215,24 @@ h6:hover{
   font-size: 40px;
   text-align: center;
 }
+
+.download-btn {
+  color: #e8e8e8;
+  font-family: "Montserrat", "bold";
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #313131;
+  padding: 10px;
+  border: 4px solid #B5373F;
+  display: inline-block;
+  position: relative;
+  top: 100px;
+  margin-left: 50px;
+  transition: all 0.8s ease 0s;
+  }
+  .download-btn:hover {
+  color: #e8e8e8;
+  background: #B5373F;
+  border-color: #e8e8e8;
+  transition: all 0.7s ease 0s;
+  }
