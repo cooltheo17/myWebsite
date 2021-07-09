@@ -104,9 +104,10 @@ for( var i = 0; i < number; i++ )  {
 	// Speed in x and y direction
 	var dx = 0;
 	var xDirection = Math.random();
-	if(xDirection<0.5){dx = -1* Math.random() * 1.4;}
-  	else{dx = xDirection *  1.5;}
-  	var dy = Math.random() *  1.3;
+	if(xDirection<0.5){dx = -1* Math.random() * 0.7;}
+  	else{dx = xDirection *  0.7;}
+  	var dy = Math.random() *  0.7;
+
 
 	circles.push( new Circle( x, y, dx, dy, radius ) );
 	
