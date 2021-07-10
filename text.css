@@ -65,7 +65,7 @@ h5 span:nth-child(3n):hover {
   color: #c12427;
 }
 
-h6 {
+.grid-item-1 h6 {
   color:#8bbfef;
   font-family: 'Heebo';
   font-size: 25px;
@@ -79,7 +79,7 @@ h6 {
   z-index: 2;
 }
 
-h6:hover{
+.grid-item-1 h6:hover{
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
   font-size: 26px;
@@ -112,7 +112,7 @@ h6:hover{
   padding: 20px 220px;
 
 }
-.box{
+.box1{
   position: relative;
   width: 80px;
   height: 80px;
@@ -125,11 +125,48 @@ h6:hover{
   -webkit-transform: translate3d(0,0,0) scale(0.9);
   transform: translate3d(0,0,0) scale(0.9);
 }
-.box:hover{
+.box1:hover{
+  opacity: 1;
+  -webkit-transform: translate3d(0,0,0) scale(1);
+  transform: translate3d(0,0,0) scale(1);
+}
+
+.box2{
+  position: relative;
+  width: 80px;
+  height: 80px;
+  background-image: url(images/github_logo_2.png);
+  top: -120px;
+  margin-left: 110px;
+  opacity: 0.8;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,0,0) scale(0.9);
+  transform: translate3d(0,0,0) scale(0.9);
+}
+.box2:hover{
   opacity: 1;
   -webkit-transform: translate3d(0,0,0) scale(1);
   transform: translate3d(0,0,0) scale(1);
 } 
+.box3{
+  position: relative;
+  width: 80px;
+  height: 80px;
+  background-image: url(images/github_logo_3.png);
+  top: -120px;
+  margin-left: 110px;
+  opacity: 0.8;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,0,0) scale(0.9);
+  transform: translate3d(0,0,0) scale(0.9);
+}
+.box3:hover{
+  opacity: 1;
+  -webkit-transform: translate3d(0,0,0) scale(1);
+  transform: translate3d(0,0,0) scale(1);
+}   
 
 .grid-item-1 {
   width: 300px;
@@ -155,20 +192,126 @@ h6:hover{
 .grid-item-2 {
   width: 300px;
   height: 450px;
-  background-color: #262b33;
-  border: 2px solid #B5373F;
-  padding: 0px;
+  border: 3px solid #B5373F;
   font-size: 40px;
   text-align: center;
+  cursor: pointer;
+}
+.grid-item-2 img {
+	opacity: 0.7;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+  width: 300px;
+  height: 450px;
+  z-index: 1;
+}
+
+.grid-item-2:hover img {
+	opacity: 0.1;
+}
+
+.grid-item-2 p {
+  margin: 20px;
+  padding: 10px;
+  width: 240px;
+  height: 350px;
+  font-family: 'Heebo';
+  font-size: 15px;
+  font-weight: normal;
+  border: 1px solid #e5b516;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,20px,0) scale(1.1);
+  transform: translate3d(0,20px,0) scale(1.1);
+}
+
+.grid-item-2 h6 {
+  color:#e5b516;
+  font-family: 'Heebo';
+  font-size: 25px;
+  position: relative;
+  font-weight: normal;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0,20px,0);
+  transform: translate3d(0,20px,0);
+  top:-510px;
+  z-index: 2;
+}
+
+.grid-item-2 h6:hover{
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+  font-size: 26px;
+  
+}
+.grid-item-2:hover p {
+  opacity: 1;
+  -webkit-transform: translate3d(0,0,0) scale(1);
+  transform: translate3d(0,0,0) scale(1);
 }
 .grid-item-3 {
   width: 300px;
   height: 450px;
-  background-color: #262b33;
-  border: 2px solid #B5373F;
-  padding: 0px;
+  border: 3px solid #B5373F;
   font-size: 40px;
   text-align: center;
+  cursor: pointer;
+}
+.grid-item-3 img {
+	opacity: 0.7;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+  width: 300px;
+  height: 450px;
+  z-index: 1;
+}
+
+.grid-item-3:hover img {
+	opacity: 0.1;
+}
+
+.grid-item-3 p {
+  margin: 20px;
+  padding: 10px;
+  width: 240px;
+  height: 350px;
+  font-family: 'Heebo';
+  font-size: 15px;
+  font-weight: normal;
+  border: 1px solid #70e53d;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,20px,0) scale(1.1);
+  transform: translate3d(0,20px,0) scale(1.1);
+}
+
+.grid-item-3 h6 {
+  color:#70e53d;
+  font-family: 'Heebo';
+  font-size: 25px;
+  position: relative;
+  font-weight: normal;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0,20px,0);
+  transform: translate3d(0,20px,0);
+  top:-510px;
+  z-index: 2;
+}
+
+.grid-item-3 h6:hover{
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+  font-size: 26px;
+  
+}
+.grid-item-3:hover p {
+  opacity: 1;
+  -webkit-transform: translate3d(0,0,0) scale(1);
+  transform: translate3d(0,0,0) scale(1);
 }
 .grid-item-4 {
   width: 300px;
