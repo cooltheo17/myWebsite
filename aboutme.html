@@ -3,7 +3,6 @@
   <head>
     <title>Theo K. | About me Page</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="images.css">
     <link rel="stylesheet" type="text/css" href="navigator.css">
     <link rel="stylesheet" type="text/css" href="canvas.css">
     <link rel="stylesheet" type="text/css" href="text.css">
@@ -18,16 +17,17 @@
     </section>
 
     <h7 class="text-hover">About me</h7><br>
-    <h8>I am a third year student at the University of Warwick</h8>
-    <br><h8>studing Computer Systems Engineering. I am passionate</h8>
-    <br><h8>about programming and I enjoy learning about new</h8>
-    <br><h8>technologies. I hope to be part of a team that will</h8>
-    <br><h8>develop exciting projects.</h8>
+    <h8>Hi, my name is Theo.</h8>
+    <br><h8>I studied Computer Systems Engineering at the University of Warwick.</h8>
+    <br><h8>I am constantly learning about new technologies in order to become</h8>
+    <br><h8>the best software developer that I can be.</h8>
     <br>
     <a class="download-btn" href="https://docs.google.com/document/d/1uNUf0FumwR4AZxHp9Uf3IGLlS6WJbCn-43Ykdc6ZVfc/edit?usp=sharing" target="_blank">View CV</a>
+    <div onclick=linkedin() class="linkedin"></div> 
     <div>
     <canvas id="canvas"></canvas>
     <script type="text/javascript" src="canvas3.js"></script>
+    
     <script>
       function _toArray(arr) { 
           return Array.isArray(arr) ? arr : Array.from(arr)
@@ -48,7 +48,12 @@
         }
         
         makeSpans('h7')
-      </script>
+      
+      function linkedin() {
+        window.open(
+        "https://uk.linkedin.com/in/theo-koulas-02a8b721a", "_blank")
+      }
+    </script>
   
 
 </body>

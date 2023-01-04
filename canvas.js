@@ -65,17 +65,16 @@ function Circle( x, y, dx, dy, radius ) {
 				}		
 		}
 		if(this.x + this.radius > canvas.width || this.x - this.radius < 0) {
-
 			this.dx = -this.dx;
 		}
-
 		if(this.y + this.radius > canvas.height || this.y - this.radius < 65) {
-
 			this.dy = -this.dy;
 		}
 
+	
 		this.x += this.dx;
 		this.y += this.dy;
+
 
         this.draw();
 		
@@ -105,7 +104,6 @@ for( var i = 0; i < number; i++ )  {
 	if(xDirection<0.5){dx = -1* Math.random() * 0.7;}
   	else{dx = xDirection *  0.7;}
   	var dy = Math.random() *  0.7;
-
 	circles.push( new Circle( x, y, dx, dy, radius ) );
 	
 }

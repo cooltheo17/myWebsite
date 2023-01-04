@@ -204,12 +204,29 @@ h5 span:nth-child(3n):hover {
   -webkit-transform: translate3d(0,0,0) scale(1);
   transform: translate3d(0,0,0) scale(1);
 }
-    
+.box6{
+  position: relative;
+  width: 80px;
+  height: 80px;
+  background-image: url(images/report_logo_1.png);
+  top: -120px;
+  margin-left: 110px;
+  opacity: 0.8;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,0,0) scale(0.9);
+  transform: translate3d(0,0,0) scale(0.9);
+}
+.box6:hover{
+  opacity: 1;
+  -webkit-transform: translate3d(0,0,0) scale(1);
+  transform: translate3d(0,0,0) scale(1);
+}
 
 .grid-item-1 {
   width: 300px;
   height: 450px;
-  border: 3px solid #B5373F;
+  border: 3px solid #8bbfef;
   font-size: 40px;
   text-align: center;
   cursor: pointer;
@@ -222,7 +239,6 @@ h5 span:nth-child(3n):hover {
   height: 450px;
   z-index: 1;
 }
-
 .grid-item-1:hover img {
 	opacity: 0.1;
 }
@@ -230,7 +246,7 @@ h5 span:nth-child(3n):hover {
 .grid-item-2 {
   width: 300px;
   height: 450px;
-  border: 3px solid #B5373F;
+  border: 3px solid #e5b516;
   font-size: 40px;
   text-align: center;
   cursor: pointer;
@@ -243,11 +259,9 @@ h5 span:nth-child(3n):hover {
   height: 450px;
   z-index: 1;
 }
-
 .grid-item-2:hover img {
 	opacity: 0.1;
 }
-
 .grid-item-2 p {
   margin: 20px;
   padding: 10px;
@@ -263,7 +277,6 @@ h5 span:nth-child(3n):hover {
   -webkit-transform: translate3d(0,20px,0) scale(1.1);
   transform: translate3d(0,20px,0) scale(1.1);
 }
-
 .grid-item-2 h6 {
   color:#e5b516;
   font-family: 'Heebo';
@@ -277,7 +290,6 @@ h5 span:nth-child(3n):hover {
   top:-510px;
   z-index: 2;
 }
-
 .grid-item-2 h6:hover{
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
@@ -289,10 +301,11 @@ h5 span:nth-child(3n):hover {
   -webkit-transform: translate3d(0,0,0) scale(1);
   transform: translate3d(0,0,0) scale(1);
 }
+
 .grid-item-3 {
   width: 300px;
   height: 450px;
-  border: 3px solid #B5373F;
+  border: 3px solid #70e53d;
   font-size: 40px;
   text-align: center;
   cursor: pointer;
@@ -305,11 +318,9 @@ h5 span:nth-child(3n):hover {
   height: 450px;
   z-index: 1;
 }
-
 .grid-item-3:hover img {
 	opacity: 0.1;
 }
-
 .grid-item-3 p {
   margin: 20px;
   padding: 10px;
@@ -325,7 +336,6 @@ h5 span:nth-child(3n):hover {
   -webkit-transform: translate3d(0,20px,0) scale(1.1);
   transform: translate3d(0,20px,0) scale(1.1);
 }
-
 .grid-item-3 h6 {
   color:#70e53d;
   font-family: 'Heebo';
@@ -351,10 +361,11 @@ h5 span:nth-child(3n):hover {
   -webkit-transform: translate3d(0,0,0) scale(1);
   transform: translate3d(0,0,0) scale(1);
 }
+
 .grid-item-4 {
   width: 300px;
   height: 450px;
-  border: 3px solid #B5373F;
+  border: 3px solid #ad6cb7;
   font-size: 40px;
   text-align: center;
   cursor: pointer;
@@ -367,11 +378,9 @@ h5 span:nth-child(3n):hover {
   height: 450px;
   z-index: 1;
 }
-
 .grid-item-4:hover img {
 	opacity: 0.1;
 }
-
 .grid-item-4 p {
   margin: 20px;
   padding: 10px;
@@ -387,7 +396,6 @@ h5 span:nth-child(3n):hover {
   -webkit-transform: translate3d(0,20px,0) scale(1.1);
   transform: translate3d(0,20px,0) scale(1.1);
 }
-
 .grid-item-4 h6 {
   color:#ad6cb7;
   font-family: 'Heebo';
@@ -413,10 +421,11 @@ h5 span:nth-child(3n):hover {
   -webkit-transform: translate3d(0,0,0) scale(1);
   transform: translate3d(0,0,0) scale(1);
 }
+
 .grid-item-5 {
   width: 300px;
   height: 450px;
-  border: 3px solid #B5373F;
+  border: 3px solid #3b9cba;
   font-size: 40px;
   text-align: center;
   cursor: pointer;
@@ -429,11 +438,9 @@ h5 span:nth-child(3n):hover {
   height: 450px;
   z-index: 1;
 }
-
 .grid-item-5:hover img {
 	opacity: 0.1;
 }
-
 .grid-item-5 p {
   margin: 20px;
   padding: 10px;
@@ -449,7 +456,6 @@ h5 span:nth-child(3n):hover {
   -webkit-transform: translate3d(0,20px,0) scale(1.1);
   transform: translate3d(0,20px,0) scale(1.1);
 }
-
 .grid-item-5 h6 {
   color:#3b9cba;
   font-family: 'Heebo';
@@ -463,7 +469,6 @@ h5 span:nth-child(3n):hover {
   top:-510px;
   z-index: 2;
 }
-
 .grid-item-5 h6:hover{
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
@@ -475,15 +480,69 @@ h5 span:nth-child(3n):hover {
   -webkit-transform: translate3d(0,0,0) scale(1);
   transform: translate3d(0,0,0) scale(1);
 }
+
 .grid-item-6 {
   width: 300px;
   height: 450px;
-  background-color: #262b33;
-  border: 2px solid #B5373F;
-  padding: 0px;
+  border: 3px solid #D06F4F;
   font-size: 40px;
   text-align: center;
+  cursor: pointer;
 }
+.grid-item-6 img {
+	opacity: 0.7;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+  width: 300px;
+  height: 450px;
+  z-index: 1;
+}
+.grid-item-6:hover img {
+	opacity: 0.1;
+}
+.grid-item-6 p {
+  margin: 20px;
+  padding: 10px;
+  width: 240px;
+  height: 350px;
+  font-family: 'Heebo';
+  font-size: 15px;
+  font-weight: normal;
+  border: 1px solid #D06F4F;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,20px,0) scale(1.1);
+  transform: translate3d(0,20px,0) scale(1.1);
+}
+.grid-item-6 h6 {
+  color:#D06F4F;
+  font-family: 'Heebo';
+  font-size: 25px;
+  position: relative;
+  font-weight: normal;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0,20px,0);
+  transform: translate3d(0,20px,0);
+  top:-510px;
+  z-index: 2;
+}
+
+.grid-item-6 h6:hover{
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+  font-size: 26px;
+  
+}
+.grid-item-6:hover p {
+  opacity: 1;
+  -webkit-transform: translate3d(0,0,0) scale(1);
+  transform: translate3d(0,0,0) scale(1);
+}
+
+
+
 .grid-item-7 {
   width: 300px;
   height: 450px;
@@ -566,4 +625,22 @@ h5 span:nth-child(3n):hover {
     position: relative;
     margin-left: 110px;
     top: 40px;
+  }
+
+  .linkedin:hover{
+    -webkit-transform: translate3d(0,0,0) scale(1);
+    transform: translate3d(0,0,0) scale(1);
+  }
+  
+  .linkedin{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-image: url(images/linkedin_logo.png);
+    top: 53px;
+    margin-left: 250px;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(0,0,0) scale(0.9);
+    transform: translate3d(0,0,0) scale(0.9);
   }

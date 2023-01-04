@@ -64,7 +64,7 @@ function Circle( x, y, dx, dy, radius ) {
 					this.dy-=0.02;
 				}		
 		}
-		if(this.x + this.radius > 230 && this.x + this.radius < 500 || this.x - this.radius < 0 || this.x - this.radius < canvas.width-240 && this.x + this.radius > 500 || this.x + this.radius > canvas.width) {
+		if(this.x + this.radius > 230 && this.x + this.radius < 500 || this.x - this.radius < 0 || this.x - this.radius < canvas.width-210 && this.x + this.radius > 500 || this.x + this.radius > canvas.width) {
 
 			this.dx = -this.dx;
 		}
@@ -87,7 +87,7 @@ var number = 9;
 for( var i = 0; i < number; i++ )  {
 
 	// Radius
-	var radius = 60;
+	var radius = 50;
 	var scaleSize=Math.random();
 	if(scaleSize>0.4){
 		radius=radius*scaleSize;
@@ -98,7 +98,7 @@ for( var i = 0; i < number; i++ )  {
 	var y = Math.random() * (canvas.height - radius * 2 - 65) + radius+65;
 	}
 	else{
-		var x = Math.random() * 100 + canvas.width - (100 + radius);
+		var x = Math.random() * 120 + canvas.width - (100 + radius);
 		var y = Math.random() * (canvas.height - radius * 2 - 65) + radius+65;	
 	}	
 	// Speed in x and y direction
